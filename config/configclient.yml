@@ -1,0 +1,11 @@
+eureka:
+  client:
+    defaultZone: http://localhost:8771/eureka/
+server:
+  port: 8170
+spring:
+  application:
+    name: configclient
+management:
+  security:
+    enabled: false
